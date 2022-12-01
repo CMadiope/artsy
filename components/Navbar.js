@@ -19,7 +19,7 @@ const Navbar = () => {
         <Link href='auctions'>
           Auctions
         </Link>
-        <Link href='Drop'>
+        <Link href='drop'>
           Drop
         </Link>
       </ul>
