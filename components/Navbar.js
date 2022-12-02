@@ -7,9 +7,9 @@ const Navbar = () => {
   return (
     <nav className='flex justify-between items-center py-10'>
       <Link href='/'>
-        <h1 className='text-3xl font-bold'>ARTSY.</h1>
+        <h1 className='text-2xl font-bold'>ARTSY.</h1>
       </Link>
-      <ul className='flex items-center gap-10 text-2xl'>
+      <ul className='flex items-center gap-10 text-lg'>
         <Link href='/'>
           Home
         </Link>
@@ -23,7 +23,7 @@ const Navbar = () => {
           Drop
         </Link>
       </ul>
-      <div className='flex gap-5 items-center cursor-pointer text-2xl'>
+      <div className='flex gap-5 items-center cursor-pointer text-lg'>
       <AiOutlineSearch/>
       <AiOutlineShoppingCart/>
       <AiOutlineBell/>
