@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className='flex justify-between items-center py-10'>
       <Link href='/'>
-        <h1 className='text-2xl font-bold'>ARTSY.</h1>
+        <h1 className='text-2xl font-bold font-stix_two '>ARTSY.</h1>
       </Link>
       <ul className='flex items-center gap-10 text-lg'>
         <Link href='/'>

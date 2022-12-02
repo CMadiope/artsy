@@ -12,6 +12,11 @@ module.exports = {
       maxHeight: {
         700: "780px",
       },
+      fontFamily: {
+        bellefair: "Bellefair",
+        satoshi: 'Satoshi',
+        stix_two: "STIX Two Text",
+      },
     },
   },
   plugins: [],
