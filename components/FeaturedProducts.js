@@ -12,6 +12,7 @@ import eclipse4 from "../public/img/Ellipse 22.png";
 import eclipse5 from "../public/img/Ellipse 23.png";
 import monalisa from "../public/img/monalisa.png";
 import SlideShow from "./SlideShow";
+import Footer from "./Footer";
 
 const FeaturedProducts = () => {
   return (
@@ -247,18 +248,44 @@ const FeaturedProducts = () => {
         </div>
         <hr className="mt-1" />
       </div>
-      <section className="bg-sectionBG p-8">
-        <div className="flex justify-space-between">
-          <h1 className="font-clash_display font-bold text-2xl w-52">
-            TOP CREATORS OF THE WEEK
-          </h1>
-          <div className="flex">
+      <section className="bg-sectionBG p-8 relative mb-36">
+        <div>
+          <div className="flex justify-between items-center">
             <div>
+              <h1 className="font-clash_display font-bold text-2xl w-52">
+                TOP CREATORS OF THE WEEK
+              </h1>
+            </div>
+
+            <div className="flex">
+              <div className="mt-12 w-20 h-1 bg-gray-300 rounded-lg -rotate-90">
+                <div className="w-6 h-full bg-zinc-800 rounded"></div>
+              </div>
+              <div className="font-clash_display">
+                <h3>Editorials</h3>
+                <h3>Fashion</h3>
+                <h3>Lifestyle</h3>
+                <h3>Blueprint</h3>
+              </div>
             </div>
           </div>
+          <p className=" mt-10 mb-10 font-clash_display">
+            “Everything always looked better in black and white. Everything
+            always as if it were the first time; there’s always more people in a
+            black and white photograph. It just makes it seem that there were
+            more people at a gig, more people at a football match, than with
+            colour photography. Everything looks more exciting.”– Jack Lowden
+          </p>
+        </div>
+        <div className="absolute z-20 top-1/4 left-1/3 pr-10">
+          <SlideShow />
+        </div>
+        <div className="font-clash_display font-extrabold absolute z-10 right-0 pr-8  top-1/3">
+          <h3 className="text-2xl">CIRCA</h3>
+          <h1 className="text-8xl">1985</h1>
         </div>
       </section>
-              <SlideShow/>
+      
     </div>
   );
 };

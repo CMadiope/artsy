@@ -18,6 +18,8 @@ module.exports = {
         satoshi: "Satoshi",
         stix_two: "STIX Two Text",
         clash_display: "Clash Display",
+        baskervville: "Baskervville",
+        rubik: "Rubik",
       },
     },
   },
