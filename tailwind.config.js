@@ -8,14 +8,16 @@ module.exports = {
     extend: {
       colors: {
         input: "#F4F2F2",
+        sectionBG: " #E2E2E2",
       },
       maxHeight: {
         700: "780px",
       },
       fontFamily: {
         bellefair: "Bellefair",
-        satoshi: 'Satoshi',
+        satoshi: "Satoshi",
         stix_two: "STIX Two Text",
+        clash_display: "Clash Display",
       },
     },
   },

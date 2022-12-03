@@ -11,6 +11,7 @@ import eclipse3 from "../public/img/Ellipse 21.png";
 import eclipse4 from "../public/img/Ellipse 22.png";
 import eclipse5 from "../public/img/Ellipse 23.png";
 import monalisa from "../public/img/monalisa.png";
+import SlideShow from "./SlideShow";
 
 const FeaturedProducts = () => {
   return (
@@ -246,6 +247,18 @@ const FeaturedProducts = () => {
         </div>
         <hr className="mt-1" />
       </div>
+      <section className="bg-sectionBG p-8">
+        <div className="flex justify-space-between">
+          <h1 className="font-clash_display font-bold text-2xl w-52">
+            TOP CREATORS OF THE WEEK
+          </h1>
+          <div className="flex">
+            <div>
+            </div>
+          </div>
+        </div>
+      </section>
+              <SlideShow/>
     </div>
   );
 };
