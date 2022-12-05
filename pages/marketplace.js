@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { BsSearch } from "react-icons/bs";
+import Card from "../components/Card";
 import DropDownSelect from "../components/DropDownSelect";
 import MultiRangeSlider from "../components/MultiRangeSlider";
 import filter from "../public/img//filter.png";
@@ -34,14 +35,31 @@ const marketplace = () => {
             <h4 className="font-semibold text-sm">Filter</h4>
           </div>
           <div>
-            <DropDownSelect />
+            <DropDownSelect
+              id="long-value-select"
+              instanceId="long-value-select"
+            />
           </div>
           <div className="pt-5">
             <h3 className="font-semibold">By price</h3>
-            <MultiRangeSlider/>
+            <MultiRangeSlider />
+          </div>
+          <div className="pt-10">
+            <h3 className="font-semibold">By artist</h3>
+            <select className="text-sm p-1 bg-transparent">
+              <option>All</option>
+              <option>Below $100.00</option>
+              <option>$150.00 - $200.00</option>
+              <option>Above $200.00</option>
+            </select>
           </div>
         </div>
-        <div>main content</div>
+        <div className="pl-10">
+          <Card />
+        </div>
+      </div>
+      <div className="text-center p-10 ">
+        <button className="border p-2 rounded-lg pl-4 pr-4 hover:bg-slate-50">See more</button>
       </div>
     </div>
   );
