@@ -53,7 +53,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-center p-10">
-          <p className="text-sm font-bold font-rubik">Artsystudios © 2022. All Rights Reserved.</p>
+          <p className="text-sm font-bold font-rubik">
+            Artsystudios © 2022. All Rights Reserved.
+          </p>
         </div>
       </div>
     </footer>
