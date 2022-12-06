@@ -23,7 +23,9 @@ const Footer = () => {
       <div className="pt-10 mb-20">
         <div className="flex justify-between">
           <div>
-            <h1 className="text-2xl font-bold font-stix_two ">ARTSY.</h1>
+            <Link href="/">
+              <h1 className="text-2xl font-bold font-stix_two ">ARTSY.</h1>
+            </Link>
           </div>
           <div>
             <ul className="flex flex-col">

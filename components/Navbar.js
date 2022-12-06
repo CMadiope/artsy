@@ -29,6 +29,10 @@ const Navbar = () => {
             router.pathname == "/marketplace"
               ? " underline underline-offset-4"
               : ""
+          } ${
+            router.pathname == "/card_detail"
+              ? "underline underline-offset-8"
+              : ""
           }`}
         >
           Marketplace
@@ -46,9 +50,7 @@ const Navbar = () => {
         <Link
           href="drop"
           className={`${
-            router.pathname == "/drop"
-              ? " underline underline-offset-4"
-              : ""
+            router.pathname == "/drop" ? " underline underline-offset-4" : ""
           }`}
         >
           Drop
