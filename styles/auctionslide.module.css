@@ -1,0 +1,7 @@
+.pic1 {
+  background-image: url('/public/auctions/pic1-big.png');
+  width: 150px;
+  height: 100px;
+  background-size: contain;
+  object-fit: contain;
+}

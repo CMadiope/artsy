@@ -110,7 +110,7 @@ const card_detail = () => {
         </div>
       </div>
       <div className="flex py-8 gap-8">
-        <div className="border w-72 p-5">
+        <div className="border w-72 p-5 cursor-pointer hover:scale-90">
           <div className="group flex justify-end py-2">
             <AiOutlineHeart className="group-hover:scale-125" />
           </div>
@@ -125,7 +125,7 @@ const card_detail = () => {
             </div>
           </div>
         </div>
-        <div className="border w-72 p-5">
+        <div className="border w-72 p-5 cursor-pointer hover:scale-90">
           <div className="group flex justify-end py-2">
             <AiOutlineHeart className="group-hover:scale-125" />
           </div>

@@ -10,8 +10,9 @@ module.exports = {
         input: "#F4F2F2",
         sectionBG: " #E2E2E2",
       },
-      maxHeight: {
-        700: "780px",
+      backgroundImage: {
+        "picture-1": "url('/public/auctions/')",
+        "nature-dark": "url('/nature-dark.jpg')",
       },
       fontFamily: {
         bellefair: "Bellefair",

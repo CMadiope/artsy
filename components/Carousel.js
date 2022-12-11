@@ -8,7 +8,6 @@ import image3 from "../public/carousel/image-3.png";
 import image4 from "../public/carousel/image-4.png";
 import image5 from "../public/carousel/image-5.png";
 
-
 const Carousel = () => {
   let settings = {
     dots: true,
