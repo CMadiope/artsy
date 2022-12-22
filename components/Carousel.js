@@ -16,10 +16,13 @@ const Carousel = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    
   };
 
   return (
-    <div className="p-10">
+    <div className="p-10 ">
       <Slider className="mt-8" {...settings}>
         <div className="w-72">
           <Image src={image5} alt="img" />

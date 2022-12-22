@@ -4,7 +4,7 @@ import Nav from './Navbar'
 
 const Layout = ({children}) => {
   return (
-    <div className='mx-6 md:max-w-3xl  md:mx-auto '>
+    <div className='py-8 px-10 md:p-14 lg:px-14 xl:py-6 xl:px-14 overflow-hidden'>
       <Nav />
       <main>{children}</main>
       <Footer/>

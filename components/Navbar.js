@@ -10,13 +10,13 @@ import { useRouter } from "next/router";
 const Navbar = () => {
   const router = useRouter();
   return (
-    <nav className="flex justify-between items-center py-10">
-      <Link href="/">
-        <h1 className="text-2xl font-bold font-stix_two ">ARTSY.</h1>
+    <nav className='flex justify-between items-center py-10'>
+      <Link href='/'>
+        <h1 className='text-lg md:text-2xl font-bold font-stix_two xl:text-3xl'>ARTSY.</h1>
       </Link>
-      <ul className="flex items-center gap-10 text-lg">
+      <ul className='flex items-center gap-10  md:text-lg lg:text-2xl'>
         <Link
-          href="/"
+          href='/'
           className={`${
             router.pathname == "/" ? " underline underline-offset-4" : ""
           }`}
@@ -24,7 +24,7 @@ const Navbar = () => {
           Home
         </Link>
         <Link
-          href="marketplace"
+          href='marketplace'
           className={`${
             router.pathname == "/marketplace"
               ? " underline underline-offset-4"
@@ -38,7 +38,7 @@ const Navbar = () => {
           Marketplace
         </Link>
         <Link
-          href="auctions"
+          href='auctions'
           className={`${
             router.pathname == "/auctions"
               ? " underline underline-offset-4"
@@ -48,7 +48,7 @@ const Navbar = () => {
           Auctions
         </Link>
         <Link
-          href="drop"
+          href='drop'
           className={`${
             router.pathname == "/drop" ? " underline underline-offset-4" : ""
           }`}
@@ -56,7 +56,7 @@ const Navbar = () => {
           Drop
         </Link>
       </ul>
-      <div className="flex gap-5 items-center cursor-pointer text-lg">
+      <div className='flex gap-5 items-center cursor-pointer text-lg lg:text-2xl'>
         <AiOutlineSearch />
         <AiOutlineShoppingCart />
         <AiOutlineBell />

@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 
 const Card = () => {
   const router = useRouter()
-  const hangleClick = (e) => {
+  const handleClick = (e) => {
     router.push('/card_detail')
   }
   return (
@@ -15,7 +15,7 @@ const Card = () => {
         <div
           key={index}
           className="w-36 h-56 rounded-md shadow-2xl m-5 cursor-pointer p-3 hover:scale-110"
-          onClick={hangleClick}
+          onClick={handleClick}
         >
           <div className="w-full mb-5">
             <Image src={image} alt={card.title}  />
