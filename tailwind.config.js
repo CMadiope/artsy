@@ -21,6 +21,7 @@ module.exports = {
         clash_display: "Clash Display",
         baskervville: "Baskervville",
         rubik: "Rubik",
+        cardo: "Cardo",
       },
     },
   },

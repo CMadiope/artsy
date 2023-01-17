@@ -12,7 +12,9 @@ const Navbar = () => {
   return (
     <nav className='flex justify-between items-center py-10'>
       <Link href='/'>
-        <h1 className='text-lg md:text-2xl font-bold font-stix_two xl:text-3xl'>ARTSY.</h1>
+        <h1 className='text-lg md:text-2xl font-bold font-stix_two xl:text-3xl'>
+          ARTSY.
+        </h1>
       </Link>
       <ul className='flex items-center gap-10  md:text-lg lg:text-2xl'>
         <Link
@@ -58,7 +60,9 @@ const Navbar = () => {
       </ul>
       <div className='flex gap-5 items-center cursor-pointer text-lg lg:text-2xl'>
         <AiOutlineSearch />
-        <AiOutlineShoppingCart />
+        <Link href='/cart'>
+          <AiOutlineShoppingCart />
+        </Link>
         <AiOutlineBell />
       </div>
     </nav>

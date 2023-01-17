@@ -5,13 +5,13 @@ import { GoLocation } from "react-icons/go";
 
 const Footer = () => {
   return (
-    <footer className='pt-56'>
-      <div className=' text-center pt-10 border pb-10 '>
-        <h1 className='font-baskervville self-center lg:text-xl'>NEWSLETTER</h1>
-        <p className='lg:text-lg'>
+    <footer className='pt-56 '>
+      <div className=' sm:text-center sm:pt-10 sm:border sm:pb-10 '>
+        <h1 className='font-baskervville text-xl md:text-2xl self-center lg:text-4xl max-sm:text-left pb-4'>NEWSLETTER</h1>
+        <p className='lg:text-lg text-gray-500'>
           Subscribe to get daily updates on new drops & exciting deals{" "}
         </p>
-        <div className='pt-3 font-baskervville '>
+        <div className='pt-3 font-baskervville max-sm:flex max-sm:flex-col'>
           <input
             type='text'
             placeholder='Enter your email'

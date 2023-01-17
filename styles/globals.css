@@ -6,6 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Bellefair&family=Rubik:wght@400;500&family=STIX+Two+Text:wght@400;500;600&display=swap');
 @import "react-slideshow-image/dist/styles.css";
 
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
 html,
 body {
   padding: 0;
