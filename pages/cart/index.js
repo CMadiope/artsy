@@ -81,7 +81,7 @@ const cart = () => {
           <p className='font-cardo text-lg font-light'>$35.50</p>
         </div>
       </div>
-      <div className='flex pt-8'>
+      <div className='max-sm:flex-col max-sm:items-center flex pt-8'>
         <div className='w-1/2'>
           <div className='flex flex-col'>
             <button className='bg-[#3341C1] text-white py-4 px-8 md:text-lg '>
@@ -95,7 +95,7 @@ const cart = () => {
             </Link>
           </div>
         </div>
-        <div className='w-1/2 pl-8'>
+        <div className='max-sm:pt-8 w-1/2 pl-8'>
           <div className='flex justify-between pb-2'>
             <p className='text-gray-400'>Products in cart:</p>
             <p className='text-[#292929]'>3 items</p>
