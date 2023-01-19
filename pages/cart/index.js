@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const cart = () => {
   return (
-    <div>
+    <div className="m-auto">
       <CartNav />
       <div className='flex flex-col max-xs:items-center sm:flex-row sm:justify-between mx-auto mt-16 py-12 sm:border-y'>
         <div className='flex flex-col  max-sm:items-center sm:flex-row sm:gap-6 '>

@@ -13,7 +13,7 @@ const shopping_details = () => {
     <div className='m-auto'>
       <CartNav />
       <div className='flex max-sm:flex-col max-sm:items-center py-12'>
-        <div className='w-1/2 grid md:grid-cols-2 gap-4 py-2'>
+        <div className='w-1/2 grid gap-4 py-2'>
           <div className='flex flex-col'>
             <label className='text-[#888888] py-2'>Your email</label>
             <input
@@ -31,7 +31,7 @@ const shopping_details = () => {
           <div className='flex flex-col'>
             <label className='text-[#888888] py-2'>Your full name</label>
             <input
-              className='border-2 rounded-lg p-3 flex border-gray-300 bg-[#F2F2F2] placeholder:text-[#747474]'
+              className='border-2 rounded-lg p-3 flex border-gray-300 bg-[#F2F2F2] placeholder:text-[#747474] placeholder:text-sm'
               type='text'
               placeholder='Confidence Madiope'
             />
@@ -45,7 +45,7 @@ const shopping_details = () => {
             ></select>
           </div>
           <div className='flex'>
-            <div className=' flex flex-col w-1/2 '>
+            <div className=' flex flex-col  w-1/2'>
               <label className='text-[#888888] py-2'>Country</label>
               <select
                 className='border-2 rounded-lg p-3 flex border-gray-300 bg-[#F2F2F2] placeholder:text-[#747474]'
@@ -53,10 +53,10 @@ const shopping_details = () => {
                 placeholder='Confidence Madiope'
               ></select>
             </div>
-            <div className='flex flex-col pl-2'>
+            <div className='flex flex-col pl-2 w-1/2'>
               <label className='text-[#888888] py-2'>Postal code</label>
               <input
-                className='border-2 rounded-lg p-3 flex border-gray-300 bg-[#F2F2F2] placeholder:text-[#747474]'
+                className='border-2 rounded-lg p-3 flex border-gray-300 bg-[#F2F2F2] placeholder:text-[#747474] placeholder:text-sm'
                 type='text'
                 placeholder='001024'
               />
