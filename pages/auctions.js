@@ -17,8 +17,8 @@ const auctions = () => {
         <h3 className='font-semibold md:text-xl'>
           Top bids from popular creators
         </h3>
-        <div className='grid md:grid-cols-2 gap-8'>
-          <div className='w-[398px] h-[256px] md:w-[545px] md:h-[498px] py-8  '>
+        <div className='md:grid md:grid-cols-2 gap-8'>
+          <div className=' md:w-[545px] md:h-[498px] py-8  '>
             <div className='border rounded-md'>
               <div className='group flex justify-end p-2'>
                 <AiFillHeart className='text-red-500 group-hover:scale-125 text-sm' />
@@ -51,7 +51,7 @@ const auctions = () => {
               </div>
             </div>
           </div>
-          <div className='w-[398px] h-[256px] md:w-[545px] md:h-[498px] py-8 pt:52'>
+          <div className=' md:w-[545px] md:h-[498px] py-8 pt:52'>
             <div className='border rounded-md'>
               <div className='group flex justify-end p-2'>
                 <AiFillHeart className='text-red-500 group-hover:scale-125 text-sm' />
