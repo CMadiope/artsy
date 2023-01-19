@@ -123,11 +123,10 @@ const payment_details = () => {
           </div>
         </div>
       </div>
-      <Link href='/confirm'>
-
-      <button className='bg-[#3341C1] text-white py-4 rounded px-8 w-1/2 mt-8'>
-        Confirm
-      </button>
+      <Link href='/confirm' className=''>
+        <button className='bg-[#3341C1] text-white py-4 rounded px-8 w-1/2 mt-8 '>
+          Confirm
+        </button>
       </Link>
     </div>
   );

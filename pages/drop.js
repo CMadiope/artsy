@@ -128,9 +128,9 @@ const drop = () => {
           </div>
         </div>
         <div className='flex flex-col items-center md:flex-row max-md:pt-12 md:pt-20'>
-          <div className='relative'>
+          <div className='relative z-9'>
             <Image src={warped} alt='/' />
-            <div className='absolute bottom-0 text-white flex gap-8 items-center py-6 px-8 bg-white/20 rounded-lg ml-4 mb-6'>
+            <div className='absolute  bottom-0 text-white flex gap-8 items-center py-6 px-8 bg-white/20 rounded-lg ml-4 mb-6'>
               <div>
                 <p>Auction ended</p>
                 <h1 className='text-xl font-stix_two'>5 hours ago</h1>
