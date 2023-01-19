@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import detail from "../public/img/detail.png";
 import diamond from "../public/img/diamond.png";
-import { useState } from "react";
+
 import {
   AiOutlineArrowRight,
   AiOutlineHeart,
@@ -15,7 +15,6 @@ import sassy from "../public/img/sassy.png";
 import escape from "../public/img/escape.png";
 
 const card_detail = () => {
-  const [count, setCount] = useState(0);
   return (
     <div className='pt-10'>
       <Link href='/marketplace'>
@@ -43,19 +42,9 @@ const card_detail = () => {
             <span className='text-xs'>Made in Italy</span>
             <p className='text-sm'>Total views: 1.7k views</p>
             <div className='flex gap-2 pt-5'>
-              <button
-                onClick={() => setCount(count - 1)}
-                className='px-4 rounded bg-red-400'
-              >
-                -
-              </button>
+              <button className='px-4 rounded bg-red-400'>-</button>
               <p>{count}</p>
-              <button
-                onClick={() => setCount(count + 1)}
-                className='px-4 bg-green-400 rounded'
-              >
-                +
-              </button>
+              <button className='px-4 bg-green-400 rounded'>+</button>
             </div>
             <div className='flex pt-5 gap-8'>
               <button className='flex items-center gap-2 text-sm px-6 py-2 bg-indigo-700 text-white hover:bg-indigo-500'>
