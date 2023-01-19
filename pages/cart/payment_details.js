@@ -6,6 +6,7 @@ import coinbase from "../../public/payment/Coinbase - png.png";
 import wallet from "../../public/payment/WalletConnect - jpeg.png";
 import phantom from "../../public/payment/Phantom - jpeg.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const payment_details = () => {
   return (
@@ -122,9 +123,12 @@ const payment_details = () => {
           </div>
         </div>
       </div>
+      <Link href='/confirm'>
+
       <button className='bg-[#3341C1] text-white py-4 rounded px-8 w-1/2 mt-8'>
         Confirm
       </button>
+      </Link>
     </div>
   );
 };
