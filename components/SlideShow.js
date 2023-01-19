@@ -20,7 +20,7 @@ const slideImages = [
 
 const SlideShow = () => {
   return (
-    <div className="w-96 h-auto">
+    <div className="w-56 md:w-96 h-auto">
       <Zoom scale={0.4} arrows={false}>
         {slideImages.map((slideImage, index) => (
           <Image key={index} src={slideImage.image} alt={slideImage.image} />
