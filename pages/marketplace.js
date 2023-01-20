@@ -3,7 +3,7 @@ import React from "react";
 import { BsSearch } from "react-icons/bs";
 import Card from "../components/Card";
 import DropDownSelect from "../components/DropDownSelect";
-import MultiRangeSlider from "../components/MultiRangeSlider";
+// import MultiRangeSlider from "../components/MultiRangeSlider";
 import filter from "../public/img//filter.png";
 
 const marketplace = () => {
@@ -42,7 +42,7 @@ const marketplace = () => {
           </div>
           <div className='pt-5'>
             <h3 className='font-semibold'>By price</h3>
-            <MultiRangeSlider />
+            
           </div>
           <div className='pt-10'>
             <h3 className='font-semibold'>By artist</h3>
